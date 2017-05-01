@@ -8,6 +8,7 @@
 
 ## Objectives
 
+-   Use a constructor function to construct objects of a particular type
 -   Attach attributes to a new object using the constructor function
 -   Recall the cost of defining methods inside a constructor function
 
