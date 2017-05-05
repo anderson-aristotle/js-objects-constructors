@@ -8,15 +8,16 @@
 
 ## Objectives
 
+-   Use a constructor function to construct objects of a particular type
 -   Attach attributes to a new object using the constructor function
 -   Recall the cost of defining methods inside a constructor function
 
 ## Preparation
 
-1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
-    this repository.
+1.  Fork and clone this repository.
+ [FAQ](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
 1.  Change to the new directory.
-1.  Install dependencies.
+1.  Install dependencies with `npm install`.
 1.  Create and checkout a new branch, `training`
 
 ## Similar Objects
