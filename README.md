@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
--   [ga-wdi-boston/js-objects-this](https://github.com/ga-wdi-boston/js-objects-this)
+-   [ga-wdi-boston/js-objects-this](https://git.generalassemb.ly/ga-wdi-boston/js-objects-this)
 
 ## Objectives
 
@@ -15,7 +15,7 @@
 ## Preparation
 
 1.  Fork and clone this repository.
- [FAQ](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
 1.  Change to the new directory.
 1.  Install dependencies with `npm install`.
 1.  Create and checkout a new branch, `training`
@@ -143,7 +143,7 @@ A new object created this way is sometimes called an 'instance' of type `Hero`.
 ## Lab: Refactor Object Literals Using Constructors
 
 Refactor the run tracker code from the [previous
- lesson](https://github.com/ga-wdi-boston/js-objects-this) to use constructor
+ lesson](https://git.generalassemb.ly/ga-wdi-boston/js-objects-this) to use constructor
 functions instead of copying properties between object literals.
 
 Leave the methods out for now. We'll add them back shortly.
