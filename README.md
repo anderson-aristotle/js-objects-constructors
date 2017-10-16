@@ -34,9 +34,9 @@ const batman = {
   alias: 'The Bat-man',
 
   usePower: function() {
-    return 'Spend money and hit people';
-  },
-};
+    return 'Spend money and hit people'
+  }
+}
 ```
 
 And now we want another object describing a different hero:
@@ -47,9 +47,9 @@ const wonderWoman = {
   alias: 'Wonder Woman',
 
   usePower: function() {
-    return 'Deflect bullets with bracelets';
-  },
-};
+    return 'Deflect bullets with bracelets'
+  }
+}
 ```
 
 Why is this not a good answer?
@@ -81,15 +81,15 @@ only defining the differences when we *construct* the new object.
 
 ```js
 const usePower = function () {
-  return this._power;
-};
+  return this._power
+}
 
 const Hero = function (name, alias, power) {
-  this.name = name;
-  this.alias = alias;
-  this._power = power;
-  this.usePower = usePower;
-};
+  this.name = name
+  this.alias = alias
+  this._power = power
+  this.usePower = usePower
+}
 ```
 
 It is conventional to use a leading underscore (`_`) on a property name to
@@ -102,8 +102,8 @@ object (not accessible from the outside).
 to the same name.
 
 ```js
-const foo = 'bar';
-foo = 'baz'; // explode!
+const foo = 'bar'
+foo = 'baz' // explode!
 ```
 
 What does my choice of `const` tell you about my expectations for constructor
@@ -120,10 +120,10 @@ Now, let's create `wonderWoman` using the constructor function instead of an
 ```js
 const wonderWoman = new Hero('Diana Prince',
                            'Wonder Woman',
-                           'Deflect bullets with bracelets');
+                           'Deflect bullets with bracelets')
 //=> undefined
 
-wonderWoman;
+wonderWoman
 /* => { name: 'Diana Prince',
   alias: 'Wonder Woman',
   power: 'Deflects bullets with bracelets',
