@@ -153,6 +153,10 @@ your code and look for syntax errors.
 
 You should have at least two constructor functions when you've finished.
 
+## Additional Resources
+- [Object.prototype.constructor - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor)
+
+
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
