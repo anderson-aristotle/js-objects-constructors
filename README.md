@@ -4,21 +4,21 @@
 
 ## Prerequisites
 
--   [ga-wdi-boston/js-objects-this](https://git.generalassemb.ly/ga-wdi-boston/js-objects-this)
+- [ga-wdi-boston/js-objects-this](https://git.generalassemb.ly/ga-wdi-boston/js-objects-this)
 
 ## Objectives
 
--   Use a constructor function to construct objects of a particular type
--   Attach attributes to a new object using the constructor function
--   Recall the cost of defining methods inside a constructor function
+- Use a constructor function to construct objects of a particular type
+- Attach attributes to a new object using the constructor function
+- Recall the cost of defining methods inside a constructor function
 
 ## Preparation
 
-1.  Fork and clone this repository.
+1.Fork and clone this repository.
  [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
-1.  Change to the new directory.
-1.  Install dependencies with `npm install`.
-1.  Create and checkout a new branch, `training`
+1.Change to the new directory.
+1.Install dependencies with `npm install`.
+1.Create and checkout a new branch, `training`
 
 ## Similar Objects
 
@@ -70,8 +70,8 @@ Make a diagram of our `Hero` entity based on the above objects.
 JavaScript's answer to the copy-and-paste reuse problem is **constructor
 functions**.  Constructor functions:
 
--   Always start with a capital letter (convention)
--   Are always used with the `new` keyword (self-enforced)
+- Always start with a capital letter (convention)
+- Are always used with the `new` keyword (self-enforced)
 
 Bad things happen when you break these rules.
 
@@ -109,8 +109,8 @@ foo = 'baz' // explode!
 What does my choice of `const` tell you about my expectations for constructor
 functions?
 
-We defined a method inside the the `Hero` constructor, but doing that is a Bad
- Idea<sup>TM</sup>.  JavaScript allows it, but **don't do it**.
+We defined a method inside the `Hero` constructor, but doing that is a Bad
+ Idea.  JavaScript allows it, but **don't do it**.
 We'll see the right way to achieve a near identical and preferred result
  shortly.
 
@@ -133,10 +133,10 @@ wonderWoman
 
 `new`, a JavaScript keyword, does the following, in order:
 
-1.  creates an empty object (`{}`)
-1.  attaches the constructor function to the object as a property
-1.  invokes the constructor function as a method on the object
-1.  returns the object
+1. creates an empty object (`{}`)
+1. attaches the constructor function to the object as a property
+1. invokes the constructor function as a method on the object
+1. returns the object
 
 A new object created this way is sometimes called an 'instance' of type `Hero`.
 
@@ -154,11 +154,11 @@ your code and look for syntax errors.
 You should have at least two constructor functions when you've finished.
 
 ## Additional Resources
-- [Object.prototype.constructor - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor)
 
+- [Object.prototype.constructor - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor)
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
