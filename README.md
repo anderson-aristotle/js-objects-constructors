@@ -14,11 +14,11 @@
 
 ## Preparation
 
-1.Fork and clone this repository.
+1. Fork and clone this repository.
  [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
-1.Change to the new directory.
-1.Install dependencies with `npm install`.
-1.Create and checkout a new branch, `training`
+1. Change to the new directory.
+1. Install dependencies with `npm install`.
+1. Create and checkout a new branch, `training`
 
 ## Similar Objects
 
