@@ -95,7 +95,8 @@ const Hero = function (name, alias, power) {
 It is conventional to use a leading underscore (`_`) on a property name to
 indicate to future developers that the property is **not** intended for direct
 access or assignment. Nothing in JavaScript enforces this convention, but
-developers should consider any property with a leading underscore *private* to the object (not accessible from the outside).
+developers should consider any property with a leading underscore *private* to
+the object (not accessible from the outside).
 
 `const` is just like `let`, except `const` will not let you re-assign a value
 to the same name.
