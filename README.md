@@ -33,7 +33,7 @@ const batman = {
   name: 'Bruce Wayne',
   alias: 'The Bat-man',
 
-  usePower: function() {
+  usePower: function () {
     return 'Spend money and hit people'
   }
 }
@@ -46,7 +46,7 @@ const wonderWoman = {
   name: 'Diana Prince',
   alias: 'Wonder Woman',
 
-  usePower: function() {
+  usePower: function () {
     return 'Deflect bullets with bracelets'
   }
 }
@@ -65,7 +65,7 @@ between them.
 
 Make a diagram of our `Hero` entity based on the above objects.
 
-## Constructors
+## Demo: Constructors
 
 JavaScript's answer to the copy-and-paste reuse problem is **constructor
 functions**.  Constructor functions:
@@ -95,7 +95,8 @@ const Hero = function (name, alias, power) {
 It is conventional to use a leading underscore (`_`) on a property name to
 indicate to future developers that the property is **not** intended for direct
 access or assignment. Nothing in JavaScript enforces this convention, but
-developers should consider any property with a leading underscore *private* to the object (not accessible from the outside).
+developers should consider any property with a leading underscore *private* to
+the object (not accessible from the outside).
 
 `const` is just like `let`, except `const` will not let you re-assign a value
 to the same name.
