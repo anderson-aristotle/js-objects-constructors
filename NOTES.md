@@ -1,10 +1,21 @@
 # Javascript Constructors
 
+## Whiteboard image
+
+![https://git.generalassemb.ly/storage/user/3667/files/739608b8-2c42-11e8-8802-addd98b629b7]()
+
+Can be used to illustrate how defining the method inside the constructor would
+produce copies of the function inside each instance. it also can help
+illustrate why each instance needs its own name and alias that they don't want
+to share with each other.
+
+whereas if we define the method on the constructor's prototype, each instance
+could look back to the prototype's method.
+
 ## module.exports
 
 Before the bulk of this lesson, it would be nice to do a small walkthrough of
 how to work with module.exports. Here's an example:
-
 
 ```js
 module.exports = 'just a string'
@@ -48,10 +59,7 @@ module.exports = {
 > //    }
 ```
 
-
-
 ## Delivery Notes
-
 
 Consider a step-by-step walkthrough of the hero constructor function, probably
 using the `node` shell.
