@@ -2,7 +2,7 @@
 
 ## Whiteboard image
 
-![https://git.generalassemb.ly/storage/user/3667/files/739608b8-2c42-11e8-8802-addd98b629b7]()
+![](https://i.imgur.com/xCVNEXz.jpg)
 
 Can be used to illustrate how defining the method inside the constructor would
 produce copies of the function inside each instance. it also can help
