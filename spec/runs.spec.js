@@ -18,6 +18,10 @@ describe('runs', function () {
     it('has an email property', function () {
       expect(Object.keys(user).includes('email')).to.equal(true)
     })
+    it('has a runs property which is an array', function () {
+      expect(Object.keys(user).includes('runs')).to.equal(true)
+      expect(user.runs instanceof Array).to.equal(true)
+    })
     describe('total distance', function () {
       it('has the correct length', function () {
         expect(user.totalDistance()).to.equal(2600)
