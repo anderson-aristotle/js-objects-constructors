@@ -32,4 +32,9 @@ describe('Run Tracker', function () {
       expect(user.averageSpeed().toLocaleString('en-US')).to.equal('1.857')
     })
   })
+  describe('each Run instance', function () {
+    it('has a date property', function () {
+      expect(Object.keys(new Run('2015-05-25 15:00', 1200, 600)).includes('date')).to.equal(true)
+    })
+  })
 })
