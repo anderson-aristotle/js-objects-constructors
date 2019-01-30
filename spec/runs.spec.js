@@ -15,6 +15,9 @@ describe('runs', function () {
     it('has a name property', function () {
       expect(Object.keys(user).includes('name')).to.equal(true)
     })
+    it('has an email property', function () {
+      expect(Object.keys(user).includes('email')).to.equal(true)
+    })
     describe('total distance', function () {
       it('has the correct length', function () {
         expect(user.totalDistance()).to.equal(2600)
