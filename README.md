@@ -141,16 +141,14 @@ A new object created this way is sometimes called an 'instance' of type `Hero`.
 
 ## Lab: Refactor Object Literals Using Constructors
 
-Refactor the run tracker code from the [previous
- lesson](https://git.generalassemb.ly/ga-wdi-boston/js-objects-this) to use
- constructor functions instead of copying properties between object literals.
+Refactor the run tracker code from the [previous lesson](https://git.generalassemb.ly/ga-wdi-boston/js-objects-this) to use constructor functions instead of copying properties between object literals.
 
-Leave the methods out for now. We'll add them back shortly.
+There are tests for the lab which can be run with `grunt test`
 
-There are no tests for this (yet), but you can still use `grunt nag` to lint
-your code and look for syntax errors.
-
-You should have at least two constructor functions when you've finished.
+You should take the `user` object and move some of the code into the `User`
+constructor function, and some of the code into the `Run` constructor function.
+You should remove or comment out the `console.log` statement when you are ready
+to run the tests.
 
 ## Additional Resources
 
