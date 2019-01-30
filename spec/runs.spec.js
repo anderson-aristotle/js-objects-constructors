@@ -39,5 +39,8 @@ describe('Run Tracker', function () {
     it('has a distance property', function () {
       expect(Object.keys(new Run('2015-05-25 15:00', 1200, 600)).includes('distance')).to.equal(true)
     })
+    it('has a timeTaken property', function () {
+      expect(Object.keys(new Run('2015-05-25 15:00', 1200, 600)).includes('timeTaken')).to.equal(true)
+    })
   })
 })
