@@ -9,8 +9,6 @@ describe('Run Tracker', function () {
   const User = runs.User
   const Run = runs.Run
   const user = new User('Christopher Robin', 'wdi@christopherRobin.com')
-  user.runs.push(new Run('2015-05-25 15:00', 1200, 600))
-  user.runs.push(new Run('2015-05-25 15:00', 1400, 800))
   describe('each User instance', function () {
     it('has a name property', function () {
       expect(Object.keys(user).includes('name')).to.equal(true)
@@ -21,6 +19,8 @@ describe('Run Tracker', function () {
     it('has a runs property which is an array', function () {
       expect(Object.keys(user).includes('runs')).to.equal(true)
       expect(user.runs instanceof Array).to.equal(true)
+      user.runs.push(new Run('2015-05-25 15:00', 1200, 600))
+      user.runs.push(new Run('2015-05-25 15:00', 1400, 800))
     })
     it('has a totalDistance method that returns the right length', function () {
       expect(user.totalDistance()).to.equal(2600)
