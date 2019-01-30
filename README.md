@@ -145,7 +145,10 @@ Refactor the run tracker code from the [previous lesson](https://git.generalasse
 
 There are tests for the lab which can be run with `grunt test`
 
-You should have at least two constructor functions when you've finished.
+You should take the `user` object and move some of the code into the `User`
+constructor function, and some of the code into the `Run` constructor function.
+You should remove or comment out the `console.log` statement when you are ready
+to run the tests.
 
 ## Additional Resources
 
